@@ -7,7 +7,7 @@
     "orientation": "any",
     "scope": "/",
     "short_name": "PWASample",
-    "start_url": "/",
+    "start_url": "/PWA/",
     "theme_color": "#61b3e5",
     "categories": ["profile", "theme", "portfolio", "personalization", "social", "photo"],
     "prefer_related_applications": false,
