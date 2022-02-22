@@ -1,6 +1,6 @@
 $(document).ready(function() {
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register("/PWA/sw.js");
+        navigator.serviceWorker.register("/sw.js");
     }
     /* PWA Install Prompt */
     let deferredPrompt;
