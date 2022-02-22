@@ -5,7 +5,7 @@
     "display": "standalone",
     "name": "PWASample",
     "orientation": "any",
-    "scope": "/",
+    "scope": "/PWA/",
     "short_name": "PWASample",
     "start_url": "/PWA/",
     "theme_color": "#61b3e5",
