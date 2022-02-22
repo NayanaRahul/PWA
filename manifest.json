@@ -13,12 +13,12 @@
     "categories": ["profile", "theme", "portfolio", "personalization", "social", "photo"],
     "prefer_related_applications": false,
     "screenshots": [{
-            "src": "screenshot_desktop.png",
+            "src": "/screenshot_desktop.png",
             "type": "image/png",
             "sizes": "1163x615"
         },
         {
-            "src": "screenshot_mobile.png",
+            "src": "/screenshot_mobile.png",
             "type": "image/png",
             "sizes": "255x519"
         }
