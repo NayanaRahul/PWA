@@ -1,5 +1,7 @@
 $(document).ready(function() {
-    
+     if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("/PWA/sw.js");
+        }
     /* PWA Install Prompt */
     let deferredPrompt;
     const acceptBtn = document.querySelector('.acceptBtn');
