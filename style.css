@@ -1,0 +1,106 @@
+:root {
+    --yellow: #d5a207;
+    --grey_line: #E1E1E1;
+    --grey_light: #828282;
+    --grey_bg: #E9E9E9;
+    --black: #151517;
+    --white: #F1F1F1;
+    --green_light: #8ED2A9;
+    --blue_light: #6FC2C5;
+    --blue_bg: #90C0E8;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif
+}
+
+.w3-bar,
+h1,
+button {
+    font-family: "Montserrat", sans-serif
+}
+
+.fa-anchor,
+.fa-coffee {
+    font-size: 200px
+}
+
+.flexbox_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.btn_normal {
+    padding: 17px;
+    border: 1px solid var(--yellow);
+    border-radius: 10px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--yellow);
+    color: var(--white);
+    width: 152px;
+}
+
+.text_grey {
+    color: var(--grey_light);
+}
+
+
+/* A2HS */
+
+.btn_normal.btn_install {
+    padding: 7px;
+}
+
+.btn_close.pos_val {
+    top: 15px;
+    right: 25px;
+}
+
+.btn_normal.btn_install {
+    border-radius: 30px;
+}
+
+.a2hs_modal {
+    z-index: 10;
+    left: 0;
+    bottom: -50%;
+    position: fixed;
+    width: 100%;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    background-color: #e6f4ff;
+    border-radius: 30px 30px 0 0;
+    box-shadow: -1px 3px 20px 0px rgba(156, 148, 148, 0.47);
+    -webkit-box-shadow: -1px 3px 20px 0px rgba(156, 148, 148, 0.47);
+    -moz-box-shadow: -1px 3px 20px 0px rgba(156, 148, 148, 0.47);
+    display: none;
+    flex-direction: column;
+}
+
+.a2hs_modal.slideUp {
+    bottom: -1px;
+}
+
+@media only screen and (max-width: 800px) {
+    .a2hs_modal {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
